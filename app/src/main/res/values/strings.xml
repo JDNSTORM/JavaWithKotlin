@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JavaWithKotlin</string>
+    <string name="greeting_message">Hello???</string>
+    <string name="greetings">Greetings</string>
+    <string name="lets_java">Let\'s JAVA</string>
+    <string name="lets_kotlin">Let\'s KOTLIN</string>
+    <string name="hello_from_kotlin">Hello from Kotlin!</string>
+    <string name="hello_from_java">Hello from JAVA!</string>
+</resources>

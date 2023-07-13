@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_to_java"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_java"
+        android:text="@string/lets_java"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_margin="10dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_to_kotlin"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_kotlin"
+        android:text="@string/lets_kotlin"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
