@@ -4,7 +4,6 @@
     <string name="greetings">Greetings</string>
     <string name="lets_java">Let\'s JAVA</string>
     <string name="lets_kotlin">Let\'s KOTLIN</string>
-    <string name="hello_from_kotlin">Hello from Kotlin!
-    \n Have a nice Kotlin :)</string>
-    <string name="hello_from_java">Hello from JAVA!</string>
+    <string name="hello_from_kotlin">Hello World!\nHave a Nice Kotlin :)</string>
+    <string name="hello_from_java">Hello World!\nJava is great</string>
 </resources>
