@@ -14,13 +14,12 @@
         android:text="@string/greeting_message"
         style="@style/TextAppearance.Material3.HeadlineLarge"
         android:textAlignment="center"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="70dp"
         />
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_greet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="50dp"
         android:text="@string/greetings"/>
 </LinearLayout>
