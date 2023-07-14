@@ -1,9 +1,7 @@
 package ph.projects.navor_jamesdave.javawithkotlin.java;
 
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import ph.projects.navor_jamesdave.javawithkotlin.R;
 import ph.projects.navor_jamesdave.javawithkotlin.databinding.ActivityGreetingsBinding;
 

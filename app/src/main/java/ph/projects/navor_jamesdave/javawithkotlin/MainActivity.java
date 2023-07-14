@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import ph.projects.navor_jamesdave.javawithkotlin.databinding.ActivityMainBinding;
 import ph.projects.navor_jamesdave.javawithkotlin.java.JavaActivity;
+import ph.projects.navor_jamesdave.javawithkotlin.kotlin.KotlinActivity;
 import ph.projects.navor_jamesdave.javawithkotlin.kotlin.KotlinClickEvent;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,8 +27,17 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        binding.btnToKotlin.setOnClickListener(view ->
-                KotlinClickEvent.INSTANCE.toKotlin(this)
-        );
+        binding.btnToKotlin.setOnClickListener(view -> {
+            KotlinClickEvent.INSTANCE.toKotlin(this);
+//            toKotlin();
+        });
+    }
+
+    /**
+     * This method can also be used to start a Kotlin Activity
+     */
+    private void toKotlin(){
+        Intent intent = new Intent(this, KotlinActivity.class);
+        startActivity(intent);
     }
 }
